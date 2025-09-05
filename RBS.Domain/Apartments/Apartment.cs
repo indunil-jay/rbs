@@ -1,6 +1,7 @@
 using RBS.Domain.Abstractions;
 using RBS.Domain.Apartments.Enums;
 using RBS.Domain.Apartments.ValueObjects;
+using RBS.Domain.Shared.ValueObjects;
 
 namespace RBS.Domain.Apartments;
 
@@ -28,5 +29,5 @@ public  sealed class Apartment : Entity
    public Money CleaningFee {get; private set;}
    public List<Amenity> Amenities { get; private set; } = new();
    
-   public  DateTime? LastBookedOnUtc {get; private set;}
+   public  DateTime? LastBookedOnUtc {get; internal set;}
 }

@@ -1,4 +1,5 @@
-namespace RBS.Domain.Apartments.ValueObjects;
+
+namespace RBS.Domain.Shared.ValueObjects;
 
 public record Currency
 {
