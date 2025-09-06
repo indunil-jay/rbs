@@ -1,6 +1,6 @@
 using RBS.Domain.Abstractions;
 using RBS.Domain.Users.Events;
-using RBS.Domain.Users.ValueObject;
+using RBS.Domain.Users.ValueObjects;
 
 namespace RBS.Domain.Users;
 
