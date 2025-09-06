@@ -1,0 +1,6 @@
+@RBS.Api_HostAddress = http://localhost:5262
+
+GET {{RBS.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

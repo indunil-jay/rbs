@@ -4,11 +4,11 @@ namespace RBS.Domain.Bookings;
 
 public static class BookingErrors
 {
-    public static Error NotFound = new(
+    public static readonly Error NotFound = new(
         "Booking.Found",
         "The booking with the specified identifier was not found");
 
-    public static Error Overlap = new(
+    public static readonly Error Overlap = new(
         "Booking.Overlap",
         "The current booking is overlapping with an existing one");
 

@@ -1,5 +1,4 @@
 ﻿
-
 namespace RBS.Application.Bookings.GetBooking;
 
 public sealed class BookingResponse
