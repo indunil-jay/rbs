@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2352BEF3-DC7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBS.Application", "RBS.Application\RBS.Application.csproj", "{454887F2-16E1-4361-839C-FA888A76E416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBS.Infrastructure", "RBS.Infrastructure\RBS.Infrastructure.csproj", "{D0E47A91-EA86-4767-A9FD-2001E01A28D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +22,14 @@ Global
 		{454887F2-16E1-4361-839C-FA888A76E416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{454887F2-16E1-4361-839C-FA888A76E416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{454887F2-16E1-4361-839C-FA888A76E416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E47A91-EA86-4767-A9FD-2001E01A28D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E47A91-EA86-4767-A9FD-2001E01A28D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E47A91-EA86-4767-A9FD-2001E01A28D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E47A91-EA86-4767-A9FD-2001E01A28D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D5FE7A3C-612C-414D-A853-A9E60D84AB46} = {2352BEF3-DC7D-467D-948B-415B5B262971}
 		{454887F2-16E1-4361-839C-FA888A76E416} = {2352BEF3-DC7D-467D-948B-415B5B262971}
+		{D0E47A91-EA86-4767-A9FD-2001E01A28D9} = {2352BEF3-DC7D-467D-948B-415B5B262971}
 	EndGlobalSection
 EndGlobal
