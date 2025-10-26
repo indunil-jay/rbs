@@ -17,7 +17,7 @@ public sealed class User: Entity
     public LastName LastName { get; private set; }
     public Email Email { get; private set; }
 
-    public static User CreatInstance(FirstName firstName, LastName lastName, Email email)
+    public static User CreateInstance(FirstName firstName, LastName lastName, Email email)
     {
         var user = new User(Guid.NewGuid(), firstName,lastName, email);
         
